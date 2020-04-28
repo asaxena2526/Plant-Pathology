@@ -14,7 +14,7 @@ Objectives are to train a model using images of training dataset to
 
 ## Data Description
 
-Data resource : https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data
+Data set : https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data
 
 ├── data<br/>
 │   ├── images<br/>
