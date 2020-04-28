@@ -10,6 +10,6 @@ Misdiagnosis of the many diseases impacting agricultural crops can lead to misus
 
 Objectives are to train a model using images of training dataset to 
 1) Accurately classify a given image into different diseased category or a healthy leaf.
-2) Accurately distinguish between many diseases, sometimes more than one on a single leaf
+2) Accurately distinguish between many diseases, sometimes more than one on a single leaf.
 
 
