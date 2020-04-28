@@ -12,4 +12,39 @@ Objectives are to train a model using images of training dataset to
 1) Accurately classify a given image into different diseased category or a healthy leaf.
 2) Accurately distinguish between many diseases, sometimes more than one on a single leaf.
 
+## Data Description
+
+├── data<br/>
+│   ├── images<br/>
+│   ├── sample_submission.csv<br/>
+│   ├── test.csv<br/>
+│   └── train.csv
+
+### images
+A folder containing the train and test images, in jpg format.
+
+### train.csv
+
+* image_id: the foreign key for the parquet files
+* multiple_diseases: one of the target labels
+* healthy: one of the target labels
+* rust: one of the target labels
+* scab: one of the target labels
+
+### test.csv
+
+* image_id: the foreign key for the parquet files
+
+### sample_submission.csv
+
+* image_id: the foreign key for the parquet files
+* multiple_diseases: one of the target labels
+* healthy: one of the target labels
+* rust: one of the target labels
+* scab: one of the target labels
+
+
+
+
+
 
